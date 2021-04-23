@@ -20,17 +20,32 @@ total number of moves = (2^n)-1
 If the number of disks is even:
 
   for i=1 and while i is less than total number of moves:
+  
       if i%3==1:
+      
         move disks between source tower and temporary tower according to constraints
+        
       else if i%3==2
+      
         move disks between source tower and destination tower according to constraints
+        
       else if 1%3==0:
+      
         move disks between temporary tower and destination tower according to constriaints
+        
 Else if the number of disks is odd:
+
   for i=1 and while i is less than total number of moves:
+  
       if i%3==1:
+      
         move disks between source tower and destination tower according to constraints
+        
       else if i%3==2
+      
         move disks between source tower and temporary tower according to constraints
+        
       else if 1%3==0:
+      
         move disks between temporary tower and destination tower according to constriaints
+        
